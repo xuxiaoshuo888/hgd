@@ -11,6 +11,7 @@ const headerLogo = document.getElementById("headerLogo");//header
 blu.addEventListener("click",function(){
 	document.body.style.setProperty('--themeColor', '#1d50a2');
 	document.body.style.setProperty('--themeColorDeep', '#0f4292');
+	document.body.style.setProperty('--themeColorShallow', '#4e72ab');
 	headerLogo.src="images/header_logo.png";
 	cus.className=""
 	toTop.className=""
@@ -18,6 +19,7 @@ blu.addEventListener("click",function(){
 pup.addEventListener("click",function(){
 	document.body.style.setProperty('--themeColor', '#611987');
 	document.body.style.setProperty('--themeColorDeep', '#4c0e6c');
+	document.body.style.setProperty('--themeColorShallow', '#9d81a9');
 	headerLogo.src="images/header_logo-pup.png";
 	cus.className="cus-pup"
 	toTop.className="to-top-pup"
@@ -25,6 +27,7 @@ pup.addEventListener("click",function(){
 ora.addEventListener("click",function(){
 	document.body.style.setProperty('--themeColor', '#ed6942');
 	document.body.style.setProperty('--themeColorDeep', '#f45a2c');
+	document.body.style.setProperty('--themeColorShallow', '#eeb7a2');
 	headerLogo.src="images/header_logo-ora.png";
 	cus.className="cus-ora"
 	toTop.className="to-top-ora"

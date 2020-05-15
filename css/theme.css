@@ -1,12 +1,13 @@
 /*主题色*/
-/*蓝色   #1d50a2    选中加深蓝色 #0f4292 */
-/*紫色   #611987    选中加深紫色 #4c0e6c */
-/*橙色   #ed6942    选中加深橙色 #f45a2c*/
+/*蓝色   #1d50a2    选中加深蓝色 #0f4292   浅色 #4e72ab*/
+/*紫色   #611987    选中加深紫色 #4c0e6c   浅色 #9d81a9*/
+/*橙色   #ed6942    选中加深橙色 #f45a2c   浅色 #eeb7a2*/
 
 /*公共部分*/
 body {
 	--themeColor: #1d50a2;/*主题色*/
 	--themeColorDeep:#0f4292;/*主题色选中加深色*/
+	--themeColorShallow:#4e72ab;/*主题色浅色*/
 }
 .header_top {
     background: var(--themeColor);
@@ -116,7 +117,7 @@ body {
 }
 .header h3 em {
     display: block;
-    color: var(--themeColor);
+    color: var(--themeColorShallow);
 }
 .search-btn-pup{
 	background: url(../images/bm_ico_01-pup.png) no-repeat center scroll !important;
